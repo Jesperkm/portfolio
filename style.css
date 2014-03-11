@@ -1,0 +1,241 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+body,
+html {
+	font-family: 'PT Serif', serif;
+	height:100%;
+}
+
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+}  
+
+
+#wrapper {
+	width: 100%;
+	height:100%;
+}
+
+header {
+	width:100%;
+	height:71px;
+	background-color:rgba(25, 25, 25, 0.97);
+	text-decoration:none;
+	border-bottom:3px solid #15BF7A;
+	position:fixed;
+	top:0;
+}
+
+#nav-wrap {
+	margin:0 auto;
+	width:1200px;
+}
+
+#logo {
+	width:30%;
+	height:70px;
+	float:left;
+}
+
+#pull {
+	display:none;
+}
+
+nav {
+	text-decoration:none;
+	width:70%;
+	height:70px;
+	float:right;
+}
+
+nav ul {
+	float:right;
+}
+
+nav ul li {
+	display:inline-block;
+	width:80px;
+	height:70px;
+}
+
+nav ul li a {
+	z-index:99999;
+	line-height:73px;
+	display:inline-block;
+	width:80px;
+	height:71px;
+	color:#CCCACA;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:.8em;
+	text-align:center;
+	background-color:rgba(56, 56, 56, 0);
+	background-size:100% 200%;
+	font-weight:bold;
+	transition:.7s ease;
+	-webkit-transition:.7s ease;
+}
+
+nav a:hover {
+	background-position:100% 100%;
+	background-color:#15BF7A;
+	color:#FFF;
+}
+
+#nav-wrap a:active{
+	background-color:#15BF7A;
+	color:#FFF;
+}
+
+
+
+/********* Home Banner Section ********/
+
+#home-banner {
+	background:url(testbg.jpg);
+	background-size:cover;
+	width:100%;
+	height:100%;
+}
+
+
+
+/*************** My Work ***************/
+
+#my-work {
+	width:100%;
+	height:600px;
+	background-color:#fff;
+}
+
+/*************** About *****************/
+
+#about {
+	width:100%;
+	height:600px;
+	background-color:#bada55;
+}
+
+/*************** Contact ***************/
+
+#contact {
+	width:100%;
+	height:600px;
+	background-color:grey;
+}
+
+
+/************** MEDIA QUERIES HERE ****************/
+
+
+/***** 1200px *****/
+
+@media screen and (max-width: 1200px) {
+	
+	#nav-wrap {
+		width:960px;
+	}
+
+}
+
+
+/***** 960px *****/
+
+@media screen and (max-width: 960px) {
+	
+	#nav-wrap {
+		width:600px;
+	}	
+
+}
+
+
+
+/***** 600px *****/
+
+@media screen and (max-width: 600px) {
+	
+	header {
+		height:58px;
+	}
+
+	#nav-wrap {
+		width:100%;
+	}
+
+	#logo {
+		display:none;
+	}
+
+	nav {
+		width:100%;
+	}
+
+	nav ul {
+		display:none;
+		height:auto;
+		width:100%;
+	}
+
+	nav li {
+		width:100%;
+		position:relative;
+		background-color:#1A1919;
+		border-bottom:1px solid #15BF7A; 
+	}
+
+	nav ul li {
+		display:block;
+		width:100%;
+		height:55px;
+	}
+
+	nav ul li a {
+		width:100%;
+		height:55px;
+		line-height:55px;
+	}
+  
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }
+
+    nav a#pull {  
+        display: block;  
+        background-color:#1A1919;  
+        width: 100%;
+        height:65px;  
+        position: relative; 
+        text-decoration:none;
+        color:#fff;
+        float:right;
+        border-bottom:3px solid #15BF7A; 
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') center no-repeat;  
+        width: 50px;  
+        height: 50px;  
+        display: inline-block;  
+        position: absolute;
+        right:15px;
+        top:7px; 
+    }
+
+    #pull p {
+    	padding-top:23px;
+    	font-size:1em;
+    	font-weight:bold;
+    }
+}
