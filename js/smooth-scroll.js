@@ -60,7 +60,7 @@ window.smoothScroll = (function (window, document, undefined) {
 	// Private method
 	// Returns an integer
 	var _getEndLocation = function ( anchor, headerHeight, offset ) {
-		var location = 0;
+		var location = -80;
 		if (anchor.offsetParent) {
 			do {
 				location += anchor.offsetTop;

@@ -1,5 +1,10 @@
 <?php include "header.php"; ?>
 
+<video autoplay loop poster="img/polina.jpg" id="bgvid">
+	<source src="video/polina.webm" type="video/webm">
+	<source src="polina.mp4" type="video/mp4">
+</video>
+
 <section id="home-banner">
 </section>
 
