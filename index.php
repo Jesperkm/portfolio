@@ -1,9 +1,12 @@
-<?php include("header.php") ?>
+<?php include "header.php"; ?>
 
 <section id="home-banner">
 </section>
 
 <section id="my-work">
+</section>
+
+<section id="skills">
 </section>
 
 <section id="about">
@@ -19,4 +22,4 @@
 
 
 
-<?php include("footer.php") ?>
+<?php include "footer.php"; ?>
