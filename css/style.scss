@@ -1,0 +1,143 @@
+body,
+html {
+	font-family: 'PT Serif', serif;
+	height:100%;
+}
+
+#wrapper {
+	width: 100%;
+	height:100%;
+}
+
+header {
+	width:100%;
+	height:80px;
+	background-color:$white;
+	text-decoration:none;
+	border-bottom:3px solid $black;
+	position:fixed;
+	top:0;
+}
+
+#nav-wrap {
+	margin:0 auto;
+	width:1200px;
+}
+
+#logo {
+	width:30%;
+	height:60px;
+	float:left;
+}
+
+#pull {
+	display:none;
+}
+
+nav {
+	text-decoration:none;
+	width:70%;
+	height:60px;
+	float:right;
+}
+
+nav ul {
+	float:right;
+}
+
+nav ul li {
+	display:inline-block;
+	width:80px;
+	height:60px;
+}
+
+nav ul li a {
+	z-index:99999;
+	line-height:80px;
+	display:inline-block;
+	width:80px;
+	height:80px;
+	color:$black;
+	text-decoration:none;
+	font-size:.8em;
+	text-align:center;
+	background-color:rgba(56, 56, 56, 0);
+	background-size:100% 200%;
+	transition:.7s ease;
+	-webkit-transition:.7s ease;
+}
+
+nav a:hover {
+	background-position:100% 100%;
+	background-color:$black;
+	color:$white;
+}
+
+#nav-wrap a:active{
+	background-color:$black;
+	color:$white;
+}
+
+
+
+/*==========================================
+=            Home Banner Starts            =
+==========================================*/
+
+#home-banner {
+	width:100%;
+	height:100%;
+}
+
+video#bgvid {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	top:80px;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(../img/polina.jpg) no-repeat;
+	background-size: cover;
+}
+
+/*==============================================
+=            My Work Section Starts            =
+==============================================*/
+
+#my-work {
+	width:100%;
+	height:600px;
+	background-color:#fff;
+}
+
+/*=============================================
+=            Skills Section Starts            =
+=============================================*/
+
+#skills {
+	width:100%;
+	height:600px;
+	background-color:#fff321;
+}
+
+/*============================================
+=            About Section Starts            =
+============================================*/
+
+#about {
+	width:100%;
+	height:600px;
+	background-color:#bada55;
+}
+
+/*==============================================
+=            Contact Section Starts            =
+==============================================*/
+
+#contact {
+	width:100%;
+	height:600px;
+}

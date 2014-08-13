@@ -1,0 +1,67 @@
+/*===============================
+=            Imports            =
+===============================*/
+
+
+/**
+*
+* Plugins (folder: /plugins)
+*
+**/
+
+/* Reset */
+@import "../plugins/reset";
+
+/* Clearfix */
+@import "../plugins/clearfix";
+
+
+
+/**
+*
+* SCSS Modules (folder: /modules)
+*
+**/
+
+
+
+
+/**
+*
+* Partials (folder: /Partials)
+*
+**/
+
+/* Colors */
+@import "../partials/colors";
+
+
+
+
+/**
+*
+* Main CSS (folder: /css)
+*
+**/
+@import "../css/style.scss";
+
+
+
+
+/**
+*
+* Media Queries (folder: /media_queries)
+*
+**/
+
+/* 1200px */
+@import "../media_queries/1200";
+
+/* 960px */
+@import "../media_queries/960";
+
+/* 650px */
+@import "../media_queries/650";
+
+
+/*-----  End of Imports  ------*/

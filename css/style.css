@@ -1,0 +1,268 @@
+/*===============================
+=            Imports            =
+===============================*/
+/**
+*
+* Plugins (folder: /plugins)
+*
+**/
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+:focus {
+  outline: 0; }
+
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+/**
+*
+* SCSS Modules (folder: /modules)
+*
+**/
+/**
+*
+* Partials (folder: /Partials)
+*
+**/
+/* Colors */
+/**
+*
+* Main CSS (folder: /css)
+*
+**/
+body,
+html {
+  font-family: 'PT Serif', serif;
+  height: 100%; }
+
+#wrapper {
+  width: 100%;
+  height: 100%; }
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ededed;
+  text-decoration: none;
+  border-bottom: 3px solid black;
+  position: fixed;
+  top: 0; }
+
+#nav-wrap {
+  margin: 0 auto;
+  width: 1200px; }
+
+#logo {
+  width: 30%;
+  height: 60px;
+  float: left; }
+
+#pull {
+  display: none; }
+
+nav {
+  text-decoration: none;
+  width: 70%;
+  height: 60px;
+  float: right; }
+
+nav ul {
+  float: right; }
+
+nav ul li {
+  display: inline-block;
+  width: 80px;
+  height: 60px; }
+
+nav ul li a {
+  z-index: 99999;
+  line-height: 80px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: black;
+  text-decoration: none;
+  font-size: .8em;
+  text-align: center;
+  background-color: rgba(56, 56, 56, 0);
+  background-size: 100% 200%;
+  transition: .7s ease;
+  -webkit-transition: .7s ease; }
+
+nav a:hover {
+  background-position: 100% 100%;
+  background-color: black;
+  color: #ededed; }
+
+#nav-wrap a:active {
+  background-color: black;
+  color: #ededed; }
+
+/*==========================================
+=            Home Banner Starts            =
+==========================================*/
+#home-banner {
+  width: 100%;
+  height: 100%; }
+
+video#bgvid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 80px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../img/polina.jpg) no-repeat;
+  background-size: cover; }
+
+/*==============================================
+=            My Work Section Starts            =
+==============================================*/
+#my-work {
+  width: 100%;
+  height: 600px;
+  background-color: #fff; }
+
+/*=============================================
+=            Skills Section Starts            =
+=============================================*/
+#skills {
+  width: 100%;
+  height: 600px;
+  background-color: #fff321; }
+
+/*============================================
+=            About Section Starts            =
+============================================*/
+#about {
+  width: 100%;
+  height: 600px;
+  background-color: #bada55; }
+
+/*==============================================
+=            Contact Section Starts            =
+==============================================*/
+#contact {
+  width: 100%;
+  height: 600px; }
+
+/**
+*
+* Media Queries (folder: /media_queries)
+*
+**/
+/* 1200px */
+@media screen and (max-width: 1200px) {
+  #nav-wrap {
+    width: 100%; }
+
+  nav ul {
+    margin-right: 20px; } }
+/* 960px */
+/* 650px */
+@media screen and (max-width: 650px) {
+  header {
+    height: 80px; }
+
+  #logo {
+    display: none; }
+
+  nav {
+    width: 100%; }
+
+  nav ul {
+    display: none;
+    height: auto;
+    width: 100%;
+    margin-right: 0px; }
+
+  nav li {
+    width: 100%;
+    position: relative;
+    background-color: #ededed;
+    border-bottom: 1px solid black; }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+    height: 55px; }
+
+  nav ul li a {
+    width: 100%;
+    height: 55px;
+    line-height: 55px; }
+
+  nav a {
+    text-align: left;
+    width: 100%;
+    text-indent: 25px; }
+
+  nav a#pull {
+    display: block;
+    background-color: #ededed;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    float: right;
+    border-bottom: 3px solid black; }
+
+  nav a#pull:after {
+    content: "";
+    background: url("../img/nav-icon2.png") center no-repeat;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px; }
+
+  #pull p {
+    line-height: 80px;
+    font-size: 1em;
+    font-weight: bold; } }
+/*-----  End of Imports  ------*/
