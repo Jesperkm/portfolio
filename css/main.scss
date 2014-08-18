@@ -10,10 +10,10 @@
 **/
 
 /* Reset */
-@import "../plugins/reset";
+@import "plugins/reset";
 
 /* Clearfix */
-@import "../plugins/clearfix";
+@import "plugins/clearfix";
 
 
 
@@ -33,7 +33,7 @@
 **/
 
 /* Colors */
-@import "../partials/colors";
+@import "partials/colors";
 
 
 
@@ -43,7 +43,7 @@
 * Main CSS (folder: /css)
 *
 **/
-@import "../css/style.scss";
+@import "style.scss";
 
 
 
@@ -55,13 +55,13 @@
 **/
 
 /* 1200px */
-@import "../media_queries/1200";
+@import "media_queries/1200";
 
 /* 960px */
-@import "../media_queries/960";
+@import "media_queries/960";
 
 /* 650px */
-@import "../media_queries/650";
+@import "media_queries/650";
 
 
 /*-----  End of Imports  ------*/
