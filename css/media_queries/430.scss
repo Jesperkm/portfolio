@@ -42,4 +42,16 @@
 
     @keyframes third_num{10%{top:0}30%{top:-18px} 50%{top:-36px}95%{top:0} 100%{top:0}
     }
+
+    .work span {
+        opacity:1;
+    }
+
+    .plus {
+        -moz-animation: none;
+        -webkit-animation: none;
+        -o-animation: none;
+        animation: none;
+        -webkit-animation-timing-function: none;
+    }
 }
