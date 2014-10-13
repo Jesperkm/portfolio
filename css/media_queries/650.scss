@@ -1,5 +1,13 @@
 @media screen and (max-width: 650px) {
-	
+	section p {
+        margin:-15px 50px 60px 50px;
+    }
+
+    #home-banner h1 {
+        margin:120px 0px 100px 0px;
+    }
+
+
 	header {
 		height:80px;
 	}
@@ -70,5 +78,19 @@
     	line-height:80px;
     	font-size:1em;
     	font-weight:bold;
+    }
+
+    #quote h1 {
+        font-size:1em;
+    }
+
+    #contact {
+        #submit {
+            width:40%;
+        }
+    }
+
+    #back {
+        top:20px;
     }
 }

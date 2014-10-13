@@ -1,0 +1,45 @@
+@media screen and (max-width: 430px) {
+    #skills {
+        height:1000px;
+    }
+
+    section h1 {
+        font-size:2em;
+    }
+
+    .skills-graphs {
+        width: 90%;
+        float:none;
+        margin: 0 5% 0 5%;
+    }
+
+    .mobile-hidden {
+        display:none;
+    }
+
+    .graph {
+        margin-bottom:30px;
+    }
+
+    #front-page-text {
+        height:18px;
+        width:100%;
+    }
+
+    #home-banner h2 {
+        font-size:1.1em;
+    }
+
+     #contact form {
+        width:95%;
+    }
+
+    @-moz-keyframes third_num{10%{top:0}30%{top:-18px} 50%{top:-36px}95%{top:0} 100%{top:0}
+    }
+
+    @-webkit-keyframes third_num{10%{top:0}30%{top:-18px} 50%{top:-36px}95%{top:0} 100%{top:0}
+    }
+
+    @keyframes third_num{10%{top:0}30%{top:-18px} 50%{top:-36px}95%{top:0} 100%{top:0}
+    }
+}

@@ -1,13 +1,4 @@
-/*===============================
-=            Imports            =
-===============================*/
-
-
-/**
-*
-* Plugins (folder: /plugins)
-*
-**/
+// Plugins (folder: /plugins)
 
 /* Reset */
 @import "plugins/reset";
@@ -15,44 +6,32 @@
 /* Clearfix */
 @import "plugins/clearfix";
 
+/* Prefixes */
+@import "plugins/prefix";
 
 
-/**
-*
-* SCSS Modules (folder: /modules)
-*
-**/
-
+// SCSS Modules (folder: /modules)
 
 
 
-/**
-*
-* Partials (folder: /Partials)
-*
-**/
+// Partials (folder: /Partials)
 
 /* Colors */
 @import "partials/colors";
 
+/* keyframes */
+@import "partials/letter-keyframe";
 
 
-
-/**
-*
-* Main CSS (folder: /css)
-*
-**/
+// Main CSS (folder: /css)
 @import "style.scss";
+@import "work.scss";
 
 
+// Media Queries (folder: /media_queries)
 
-
-/**
-*
-* Media Queries (folder: /media_queries)
-*
-**/
+/* 1400px */
+@import "media_queries/1400";
 
 /* 1200px */
 @import "media_queries/1200";
@@ -60,8 +39,11 @@
 /* 960px */
 @import "media_queries/960";
 
+/* 840px */
+@import "media_queries/840";
+
 /* 650px */
 @import "media_queries/650";
 
-
-/*-----  End of Imports  ------*/
+/* 400px */
+@import "media_queries/430";

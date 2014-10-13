@@ -1,0 +1,121 @@
+.a-line, .b-line, .c-line {
+	position:relative;
+	top:0;
+	-moz-animation:third_num 6s ease-in-out infinite;
+	-webkit-animation: third_num 6s ease-in-out infinite;
+	animation:third_num 6s ease-in-out infinite;
+}
+
+@-moz-keyframes third_num{10%{top:0}30%{top:-30px} 50%{top:-55px}95%{top:0} 100%{top:0}
+}
+
+@-webkit-keyframes third_num{10%{top:0}30%{top:-30px} 50%{top:-55px}95%{top:0} 100%{top:0}
+}
+
+@keyframes third_num{10%{top:0}30%{top:-30px} 50%{top:-55px}95%{top:0} 100%{top:0}
+}
+
+#home-banner {
+	-moz-animation: starteffect 3s ease;
+	-webkit-animation: starteffect 3s ease;
+	animation: starteffect 3s ease;
+}
+
+@-moz-keyframes starteffect{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-webkit-keyframes starteffect{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@keyframes starteffect{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+.plus {
+	-moz-animation: plus 5s linear infinite;
+	-webkit-animation: plus 5s linear infinite;
+	-o-animation: plus 5s linear infinite;
+	animation: plus 5s linear infinite;
+	-webkit-animation-timing-function: 5s linear;
+}
+
+@-moz-keyframes plus{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@-webkit-keyframes plus {
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@-o-keyframes plus{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@keyframes plus{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+.load-effect {
+	-moz-animation: load-effect 3s ease-in;
+	-webkit-animation: 3s load-effect ease-in;
+	-o-animation: load-effect 3s ease-in;
+	animation:load-effect 3s ease-in;
+}
+
+@-moz-keyframes load-effect {
+	0%{width:0;}
+	100%{width:80%;}
+}
+
+@-webkit-keyframes load-effect {
+	0%{width:0;}
+	100%{width:80%;}
+}
+
+@-o-keyframes load-effect {
+	0%{width:0;}
+	100%{width:80%;}
+}
+
+@keyframes load-effect {
+	0%{width:0;}
+	100%{width:80%;}
+}
+
+#facebook:hover, #twitter:hover, #linkedin:hover, #github:hover {
+    animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+	-webkit-animation: spinAround 2s linear infinite;
+	-o-animation: spinAround 2s linear infinite;
+	animation: spinAround 2s linear infinite;
+}
+ 
+@-moz-keyframes spinAround{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@-webkit-keyframes spinAround {
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@-o-keyframes spinAround {
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
+@keyframes spinAround {
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(359deg);}
+}
+
