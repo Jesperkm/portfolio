@@ -527,3 +527,32 @@ span.work-desc em {
   }
 }
 
+#popup {
+  width:60%;
+  height:auto;
+  display:none;
+  background:#fff;
+  position:absolute;
+  text-align:center;
+
+  p {
+    padding: 0 10px 60px 10px;
+  }
+
+  .jm-logo {
+    width:100%;
+    img {
+      width:15%;
+      display:block;
+      margin:20px auto 20px auto;
+    }
+  }
+}
+
+.disable-hover {
+  pointer-events: none;
+}
+
+.space {
+  height:70px;
+}

@@ -18,6 +18,10 @@
 
 	nav {
 		width:100%;
+
+        .active {
+            border-bottom:none;
+        }
 	}
 
 	nav ul {
