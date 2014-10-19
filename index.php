@@ -3,7 +3,7 @@
 <header>
 	<nav>
 		<ul class="clearfix">
-			<li><a href="#my-work" class="">Work</a></li>
+			<li><a href="#my-work">Work</a></li>
 			<li><a href="#skills">Skills</a></li>
 		</ul>
 		<a href="#home-banner"><img src="img/jm-logo.png" alt="logo" id="logo" /></a>
@@ -145,8 +145,8 @@
 		<div id="my-image"><img src="img/jesper500.jpg" alt="me" /></div>
 		<div id="about-me">
 			<h2>Front-end developer and Football enthusiast</h2>
-			<p>I'm Jesper, a 24 year old front-end developer, currently living in Odense, Denmark. I have an education in multimedia design, and there I found my passion for webdevelopment and communication. That has led me to get a bachelor degree in webdevelopment, which im done with summer 2015. <br /> <br />
-			When im not coding, doing wireframes or testing UX, i'm spending time on my hobbies. I'm a big football enthusiast, and I spend a lot of time watching football, or playing FIFA with my friends. Since my work is infront of my computer, and that gives limited physical exercise, I use time going to the gym. <br />
+			<p>I'm Jesper, a 24 year old front-end developer, currently living in Odense, Denmark. I have an education in multimedia design, and there I found my passion for webdevelopment and communication. That has led me to get a bachelor degree in webdevelopment, which i'm done with summer 2015. <br /> <br />
+			When i'm not coding, doing wireframes or testing UX, i'm spending time on my hobbies. I'm a big football enthusiast, and I spend a lot of time watching football, or playing FIFA with my friends. Since my work is infront of my computer, and that gives limited physical exercise, I use time going to the gym. <br />
 			If you want to find out more about me, you can check me up on the links below.
 			</p>
 			<div class="socials">
@@ -162,7 +162,7 @@
 <section id="contact">
 	<h1>Contact Me</h1>
 		
-		<form action="contact.php" class="form" method="post" autocomplete="off">
+		<form action="#popup" class="form clearfix" id="contact-form" method="post" autocomplete="off" novalidate>
 
 			<fieldset>
 			<label for="name"><img src="img/user.png" alt="user" /></label>
@@ -179,17 +179,17 @@
 			<input type="text" name="subject" id="subject" placeholder="Subject" />
 			</fieldset>
 
-			<textarea name="text" id="detail" placeholder="Insert the message here"></textarea>
+			<textarea name="message" id="detail" placeholder="Insert the message here"></textarea>
 			<input type="submit" value="Submit" id="submit"/>
 		</form>
+
+	<div class="space"></div>
 </section>
 
-
-
-
-
-
-
+<div id="popup">
+	<div class="jm-logo"><img src="img/jm-logo.png" alt="logo" /></div>
+	<p><?php include "contact.php"; ?></p>
+</div>
 
 <?php include "footer.php"; ?>
 

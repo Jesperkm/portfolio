@@ -7,7 +7,7 @@
 
 <div class="work-content">
     <h1>The Tales of Alethrion</h1>
-        <h2>a epic animation seria by Sun Creature Studio</h2>
+        <h2>an amazing animation seria by Sun Creature Studio</h2>
             <p>The Tales of Alethrion is an animation seria by Sun Creature Studio. It's an offspring from the shortmovie "The Reward", which was a great success. That led to a kickstarter campaign, to set of enough funds for the project. Because of many backers, the project was finalized late 2013.</p>
     <div class="btn">
         <a href="http://alethrion.com/" target="_blank"><button>Launch website</button>

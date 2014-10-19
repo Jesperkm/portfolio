@@ -175,7 +175,7 @@ nav {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url(../img/boubble.jpg) no-repeat;
+  background: url(../img/test-bg.jpg) no-repeat;
   background-size: cover; 
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -267,7 +267,7 @@ span.work-desc em {
   margin-left:-26px;
 
   p {
-    line-height:50px;
+    line-height:48px;
     margin:0;
     color:#fff;
     font-size:1em;
@@ -357,14 +357,6 @@ span.work-desc em {
 #quote {
     height:400px;
     width:100%;
-    background: url(../img/quote.jpg) no-repeat;
-    background-size: cover; 
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    -webkit-background-size: cover !important;
-    -moz-background-size: cover !important;
-    -o-background-size: cover !important;
-    background-size: cover !important;
     overflow:hidden;
 
   h1 {
@@ -519,6 +511,7 @@ span.work-desc em {
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
+    font-size:11px;
     font-family: inherit;
 
     &:hover {

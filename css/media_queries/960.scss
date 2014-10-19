@@ -3,11 +3,18 @@
         width:80%;
     }
 
-    #popup {
-      .jm-logo {
-        img {
-          width:25%;
-        }
+  nav {
+    .active {
+        border-bottom:none;
+        color: $light-grey;
+    }
+  }
+
+  #popup {
+    .jm-logo {
+      img {
+        width:25%;
       }
     }
+  }
 }
