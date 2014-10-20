@@ -188,7 +188,7 @@
 
 <div id="popup">
 	<div class="jm-logo"><img src="img/jm-logo.png" alt="logo" /></div>
-	<p><?php include "contact.php"; ?></p>
+	<p></p>
 </div>
 
 <?php include "footer.php"; ?>

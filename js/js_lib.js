@@ -52,29 +52,24 @@ $(function() {
         return false;
     });
 
-    //BpopUp for contactform response
-    $('#submit').bind('click', function(e) {
+    $('#contact-form').submit(function(e) {
         e.preventDefault();
-        $('#popup').bPopup();
-    });
 
-  /*  $('#contact-form').submit(function(e) {
-        e.preventDefault();
         $.ajax({
             type: 'POST',
-            url:'http://localhost/jesper-portfolio/contact.php',
+            url:'contact.php',
             data: $('#contact-form').serialize()    
-            })
-            .done(function(res) {
-            $('#contact-form').html('<h3>Message sent!</h3>');
-            })
-            .fail(function(err) {
-            if (err.responseText === '') {  alert('An error occured and message could not be sent.');
-            }
-            else { 
-                alert(err.responseText);
-            }
-    });*/
+        }).
+        done(function(res) {
+            $('#popup').bPopup();
+            $('#popup p').html(res);
+            $('#contact-form #name').val('');
+        }).
+        fail(function(err) {
+            $('#popup').bPopup();
+            $('#popup p').html(err.responseText);
+        });
+    });
 
     //skills load effect
     $(window).on("scroll", function() {
