@@ -2,7 +2,7 @@
 
 <div class="work-cover" id="bramming-cover"></div>
 
-<a href="index.php"><div id="back"><p>← Back</p>
+<a href="javascript:history.go(-1)"><div id="back"><p>← Back</p>
 </div></a>
 
 <div class="work-content">
