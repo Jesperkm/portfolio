@@ -52,6 +52,7 @@ $(function() {
         return false;
     });
 
+    //AJAX call for contact form
     $('#contact-form').submit(function(e) {
         e.preventDefault();
 

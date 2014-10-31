@@ -114,8 +114,7 @@ table {
   -moz-animation: plus 5s linear infinite;
   -webkit-animation: plus 5s linear infinite;
   -o-animation: plus 5s linear infinite;
-  animation: plus 5s linear infinite;
-  -webkit-animation-timing-function: 5s linear; }
+  animation: plus 5s linear infinite; }
 
 @-moz-keyframes plus {
   0% {
@@ -124,9 +123,9 @@ table {
     transform: rotate(359deg); } }
 @-webkit-keyframes plus {
   0% {
-    transform: rotate(0deg); }
+    -webkit-transform: rotate(0deg); }
   100% {
-    transform: rotate(359deg); } }
+    -webkit-transform: rotate(359deg); } }
 @-o-keyframes plus {
   0% {
     transform: rotate(0deg); }
@@ -190,6 +189,32 @@ table {
     transform: rotate(0deg); }
   100% {
     transform: rotate(359deg); } }
+#bgvid {
+  animation: bgSize 60s ease;
+  -moz-animation: bgSize 60s ease;
+  -webkit-animation: bgSize 60s ease;
+  -o-animation: bgSize 60s ease; }
+
+@-moz-keyframes bgSize {
+  0% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@-webkit-keyframes bgSize {
+  0% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@-o-keyframes bgSize {
+  0% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+@keyframes bgSize {
+  0% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
 body,
 html {
   height: 100%;
